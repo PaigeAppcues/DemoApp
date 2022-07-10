@@ -16,12 +16,8 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background-color: rgb(46, 67, 85);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(15, 50, 45);
+  font-family: Monaco, "Monaco", monospace;
 }
 
 #root {
@@ -99,11 +95,12 @@ img {
 /* Main app styling */
 
 .app-content {
-  background-color: rgb(169, 203, 226);
+  background-color: rgb(165, 241, 168);
   width: calc(70% - 75px);
   padding: 10px;
   color:rgb(0, 8, 63);
   font-weight: 500;
+  font-family: Monaco, "Monaco", monospace;
   display: flex;
   flex-direction: column;
   align-items: center;

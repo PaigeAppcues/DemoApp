@@ -22,4 +22,4 @@ export default function AppcuesIdentifier() {
             <button onClick={identifyUser}>Log me in</button>
         </div>
     )
-}
+} 

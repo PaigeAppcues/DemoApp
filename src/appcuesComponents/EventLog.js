@@ -64,4 +64,4 @@ const parseData = (data) => { // function to format event data into HTML-readabl
 export {
   logEvents,
   EventLog,
-}
+} 

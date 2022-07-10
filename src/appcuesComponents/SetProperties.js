@@ -31,4 +31,4 @@ const SetProperties = () => {
   )
 }
 
-export default SetProperties;
+export default SetProperties; 
