@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div className="app-content">
       <h1>Welcome to Paige's Test App!</h1>
-      <h2>Let's get started!</h2>
+      <h2>Hope you like plants!</h2>
       <img src={plant} alt="green leaves overlapping a white frame"></img>
     </div>
   );
