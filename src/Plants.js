@@ -11,4 +11,4 @@ const Plants = () => {
     );
   };
 
-  /*export default Plants*/
+  export default Plants;
