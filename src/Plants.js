@@ -1,5 +1,5 @@
 import React from "react";
-import air_purifier from "./resources/indoor-air-purifying-plants.jpeg";
+import air_purifier from "./resources/Indoor-Air-Purifying-Plants.jpeg";
 
 const Plants = () => {
     return (
