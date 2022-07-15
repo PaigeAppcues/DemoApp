@@ -2,9 +2,9 @@ import React from "react";
 import { BrowserRouter} from "react-router-dom";
 import { logEvents } from "./appcuesComponents/EventLog";
 import AppcuesRouter from "./Appcues";
-import mixpanel from 'mixpanel-browser';
-/* or with require() syntax:
-const mixpanel = require('mixpanel-browser');*/
+/*import mixpanel from 'mixpanel-browser';*/
+/* or with require() syntax:*/
+const mixpanel = require('mixpanel-browser');
 
 /*
 The AppcuesRouter contains the Appcues.page call, as well as all the app's page
@@ -46,10 +46,6 @@ const App = () => {
   window.Appcues.loadLaunchpad("#launchpad", { // loads Launchpad on this element
     position: "right"
   })
-
-  
-
-
   
   return ( 
     <BrowserRouter> 
