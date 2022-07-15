@@ -14,6 +14,11 @@ This is also where the Appcues.identify call is made, as well as any event liste
 like Appcues.on so that they will be called every time the page loads.
 */
 
+// Enabling the debug mode flag is useful during implementation,
+// but it's recommended you remove it for production
+mixpanel.init('a8e03192f59c6f37ed064b7990cf1507'/*, {debug: true}*/); 
+mixpanel.track('flow_started', 'flow_completed');
+
 const App = () => {
   if (!window.localStorage.currentUser) { // persists the current user across page refresh
     window.localStorage.setItem("currentUser", "testUser"); // if no current user, set userID to "testUser"
@@ -52,10 +57,5 @@ const App = () => {
     </BrowserRouter>
   )
 }
-
-// Enabling the debug mode flag is useful during implementation,
-// but it's recommended you remove it for production
-mixpanel.init('a8e03192f59c6f37ed064b7990cf1507', {debug: true}); 
-mixpanel.track('flow_started', 'flow_completed');
 
 export default App;
