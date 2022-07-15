@@ -44,10 +44,7 @@ const App = () => {
 
   
 
-// Enabling the debug mode flag is useful during implementation,
-// but it's recommended you remove it for production
-mixpanel.init('a8e03192f59c6f37ed064b7990cf1507', {debug: true}); 
-mixpanel.track('flow_started', 'flow_completed');
+
   
   return ( 
     <BrowserRouter> 
@@ -55,5 +52,10 @@ mixpanel.track('flow_started', 'flow_completed');
     </BrowserRouter>
   )
 }
+
+// Enabling the debug mode flag is useful during implementation,
+// but it's recommended you remove it for production
+mixpanel.init('a8e03192f59c6f37ed064b7990cf1507', {debug: true}); 
+mixpanel.track('flow_started', 'flow_completed');
 
 export default App;
