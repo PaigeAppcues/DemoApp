@@ -36,7 +36,7 @@ const App = () => {
     signupDate: currentTime
   })
 
-  window.Appcues.group("6789", {     
+  window.Appcues.group(userId, {     
     company_name: "Lendi Global",
     plan_level: "enterprise",
     employee_count: 12000,
