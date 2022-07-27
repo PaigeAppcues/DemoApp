@@ -36,12 +36,6 @@ const App = () => {
     signupDate: currentTime
   })
 
-  window.Appcues.group(userId, {     
-    company_name: "Lendi Global",
-    plan_level: "enterprise",
-    employee_count: 12000,
-    in_trial: false })
-
   window.Appcues.on("all", function(name, payload) {
     // console.log(name);     // uncomment these two lines if you'd like to
     // console.log(payload);  // log all events into the dev tools console
